@@ -1,0 +1,77 @@
+@media screen and (min-width: 400px) {
+  .box_list {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media screen and (min-width: 760px) {
+  .box_list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (min-width: 100px) {
+  .box_list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media screen and (min-width: 1600px) {
+  .box_list {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(227, 227, 227);
+}
+
+.box {
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+}
+.box_list {
+  position: relative;
+  background-color: white;
+  margin: 5% auto;
+  height: 530px;
+  width: 80%;
+  padding: 5%;
+  text-align: center;
+  box-shadow: 5px 5px 20px;
+}
+.box_list-text {
+  margin: 0%;
+}
+.box_list h2 {
+  margin-bottom: 0%;
+  font-weight: bolder;
+}
+.box_list p {
+  margin: 0%;
+  font-size: larger;
+  padding: 10%;
+}
+.box_list-img img {
+  height: 50%;
+  width: 50%;
+}
+.box_list-btn {
+  position: absolute;
+  left: 0px;
+  bottom: 30px;
+  width: 100%;
+}
+.box_list-btn button {
+  padding: 4%;
+  width: 60%;
+  border-radius: 50px;
+  font-size: larger;
+  background-color: white;
+  border: 2px solid rgb(255, 93, 34);
+  color: rgb(255, 93, 34);
+}
+.box_list-btn button:hover {
+  background-color: rgb(255, 93, 34);
+  color: white;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,20 @@
+@include media-mx{
+    .box_list{
+        grid-template-columns: repeat(1, 1fr);    
+    }
+}
+@include media-md{
+    .box_list{
+        grid-template-columns: repeat(2, 1fr);    
+    }
+}
+@include media-lg{
+    .box_list{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@include media-xl{
+    .box_list{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}

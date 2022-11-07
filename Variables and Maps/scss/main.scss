@@ -1,0 +1,70 @@
+@import 'variables';
+@import 'config';
+@import 'responsive';
+
+body{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: $background_color;
+}
+
+.box{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+
+    &_list{    
+        position: relative;
+        background-color: $box_background_color;
+        margin: 5% auto;
+        height: 530px;      
+        width: 80%;
+        padding: 5%;
+        text-align: center;
+        box-shadow: 5px 5px 20px;
+
+        &-text{
+            margin: 0%;
+        }
+        h2{
+            margin-bottom: 0%;
+            font-weight: $font_weight;
+        }
+
+        p{
+            margin: 0%;
+            font-size: $font_size;
+            padding: 10%;
+        }
+
+        &-img img{
+            height: $image_height;
+            width: $image_width;
+        }
+
+        &-btn{
+            position:absolute;
+            left: 0px;
+            bottom: 30px;
+            width: 100%;
+
+            button{
+                padding: 4%;
+                width: 60%;
+                border-radius: $border_radius;
+                font-size: $font_size;
+                background-color: $box_background_color;
+                border: 2px solid rgb(255, 93, 34);
+                color: rgb(255, 93, 34);
+            }
+
+            button:hover{
+                background-color: rgb(255, 93, 34);
+                color: $box_background_color;
+                
+            }
+        }
+
+    }
+}
