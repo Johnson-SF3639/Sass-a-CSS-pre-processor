@@ -1,3 +1,5 @@
+@import 'responsive';
+
 body{
     margin: 0%;
     font-family: Arial, Helvetica, sans-serif;
@@ -8,7 +10,7 @@ body{
     }
     &_page{
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat 1fr;
     
         &_box{
             padding: 3%;

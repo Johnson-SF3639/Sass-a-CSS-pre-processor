@@ -1,0 +1,19 @@
+$textLinkSize : 15px;
+$textSize : 15px;
+
+.main{
+    font-family: Arial, Helvetica, sans-serif;
+
+    &_page{
+
+        &_box{
+            p{
+                font-size: $textSize;
+            }
+
+            a{
+                font-size: $textLinkSize ;
+            }
+        }
+    }
+}

@@ -1,0 +1,14 @@
+@media screen and (min-width : 600px) {
+    .main{
+        &_page{
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }    
+}
+@media screen and (min-width : 900px) {
+    .main{
+        &_page{
+            grid-template-columns: repeat(3, 2fr);
+        }
+    }    
+}

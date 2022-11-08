@@ -1,0 +1,36 @@
+@import 'responsive';
+
+@mixin TextAlign {
+    text-align: center;    
+}
+
+body{
+    width: 65%;
+    margin: 0% auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main{
+    h1{
+        @include TextAlign();
+    }
+    &_text{
+        @include TextAlign();
+        padding: 0% 5% 3%;
+        line-height: 25px;
+    }
+    &_page{
+        display: grid;
+        grid-template-columns: repeat 1fr;
+    
+        &_box{
+            padding: 3%;
+
+            .fa-solid{
+                background-color: rgba(255, 106, 0, 0.182);
+                padding: 16px;
+                border-radius: 50%;
+                color: orangered;
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+@media screen and (min-width : 600px) {
+    .main{
+        &_page{
+            grid-template-columns: repeat(2, 1fr);
+            
+            &_line1, &_line2{
+                display: none;
+            }
+        }
+    }    
+}
+@media screen and (min-width : 900px) {
+    .main{
+        &_page{
+            grid-template-columns: repeat(3, 2fr);
+
+            &_line1, &_line2, &_line3{
+                display: none;
+            }
+        }
+    }    
+}

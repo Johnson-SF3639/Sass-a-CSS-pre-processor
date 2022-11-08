@@ -1,0 +1,45 @@
+body {
+  margin: 0%;
+  color: white;
+}
+
+.page {
+  width: 100%;
+  display: flex;
+}
+.page_box1 {
+  width: 10%;
+  background-color: gray;
+  margin: 1%;
+  padding: 1%;
+}
+.page_box1 p {
+  margin: 0;
+}
+.page_box2 {
+  background-color: gray;
+  margin: 1%;
+  padding: 1%;
+  width: 20%;
+}
+.page_box2 p {
+  margin: 0;
+}
+.page_box3 {
+  background-color: gray;
+  margin: 1%;
+  padding: 1%;
+  width: 30%;
+}
+.page_box3 p {
+  margin: 0;
+}
+.page_box4 {
+  background-color: gray;
+  margin: 1%;
+  padding: 1%;
+  width: 40%;
+}
+.page_box4 p {
+  margin: 0;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,120 @@
+@media screen and (min-width: 700px) {
+  .box {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (min-width: 1000px) {
+  .box {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(227, 227, 227);
+}
+
+.box {
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat 1fr;
+}
+.box_list1, .box_list3, .box_list2 {
+  position: relative;
+  background-color: white;
+  margin: 5% auto;
+  height: 630px;
+  width: 80%;
+  padding: 5%;
+  text-align: center;
+  box-shadow: 5px 5px 20px;
+}
+.box_list1-text {
+  margin: 0%;
+}
+.box_list1 h2, .box_list3 h2, .box_list2 h2 {
+  margin-bottom: 0%;
+  font-weight: bolder;
+}
+.box_list1 p, .box_list3 p, .box_list2 p {
+  margin: 0%;
+  font-size: larger;
+  padding: 10%;
+}
+.box_list1-img img, .box_list3 img, .box_list2 img {
+  height: 50%;
+  width: 50%;
+}
+.box_list1-btn {
+  position: absolute;
+  left: 0px;
+  bottom: 30px;
+  width: 100%;
+}
+.box_list1-btn button {
+  padding: 4%;
+  width: 60%;
+  border-radius: 50px;
+  font-size: larger;
+  background-color: white;
+  border: 2px solid rgb(255, 93, 34);
+  color: rgb(255, 93, 34);
+}
+.box_list1-btn button:hover {
+  background-color: rgb(255, 93, 34);
+  color: white;
+}
+.box_list2 h2 {
+  font-size: 30px;
+}
+.box_list2 p {
+  font-size: 22px;
+  padding: 5%;
+  color: red;
+}
+.box_list2-btn {
+  position: absolute;
+  left: 0px;
+  bottom: 30px;
+  width: 100%;
+}
+.box_list2-btn button {
+  padding: 4%;
+  width: 60%;
+  border-radius: 50px;
+  font-size: larger;
+  background-color: black;
+  border: 2px solid rgb(255, 0, 0);
+  color: rgb(255, 0, 0);
+}
+.box_list2-btn button:hover {
+  background-color: rgb(255, 93, 34);
+  color: white;
+}
+.box_list3 h2 {
+  font-size: 40px;
+}
+.box_list3 p {
+  font-size: 25px;
+  padding: 5%;
+}
+.box_list3-btn {
+  position: absolute;
+  left: 0px;
+  bottom: 30px;
+  width: 100%;
+}
+.box_list3-btn button {
+  padding: 4%;
+  width: 60%;
+  border-radius: 50px;
+  font-size: larger;
+  background-color: green;
+  border: 5px solid rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+.box_list3-btn button:hover {
+  background-color: rgb(255, 93, 34);
+  color: white;
+}/*# sourceMappingURL=main.css.map */

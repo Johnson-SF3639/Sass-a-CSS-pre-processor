@@ -12,7 +12,7 @@ body{
     width: 90%;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(3, 2fr);
+    grid-template-columns: repeat 1fr;
 
     &_list{    
         position: relative;
